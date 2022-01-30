@@ -64,8 +64,28 @@ p{
   color: #333;
 }
 
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+ul{
+  list-style-type:none;
+}
+
+#tenho-interesse{
+  background-color: #b8c8d6;
+  width: 100%;
+}
+
+#tenho-interesse form, .cog-form__content, .cog-branding__powered{
+  background-color: #b8c8d6 !important;  
+}
+
+
 ol{
   margin-left: 30px;
+  
 }
 
 ol li{
@@ -117,6 +137,11 @@ section article{
   width: 70%;
 }
 
+.artigo{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 footer {
   background-color: #254159;  
   display: block;
@@ -134,3 +159,42 @@ footer small {
   font-size: 80%;
   display: block;
 }
+
+.cog-abuse{
+  visibility: hidden !important;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .navegacao,  .artigo{
+    width: 100% !important;
+}  
+
+  
+  nav ul{
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+  .container {
+    padding-left: 1%;
+    padding-right: 1%;   
+  }
+
+  
+
+}
+
+@media screen and (max-width: 425px) {
+  .navegacao,  .artigo{
+      width: 100% !important;
+  }  
+
+  .container {
+      padding-left: 1%;
+      padding-right: 1%;
+  }
+}
+
